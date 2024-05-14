@@ -1,0 +1,15 @@
+{
+	"modules": {
+		"*": [
+			"$(MODULES)/base/timer/*",
+			"$(MODULES)/base/timer/mc/*"
+		]
+	},
+	"preload": [
+		"timer"
+	],
+	"platforms": {
+		"linarm/*": {
+		}
+	}
+}

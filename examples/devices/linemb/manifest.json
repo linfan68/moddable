@@ -1,0 +1,15 @@
+{
+    "build": {
+        "NAME": "hello-linemb",
+        "CPU": "arm"
+    },
+    "include": [
+        "$(MODDABLE)/examples/manifest_base.json",
+        "$(MODDABLE)/build/devices/linemb/manifest.json"
+    ],
+    "modules": {
+        "*": [
+            "./*"
+        ]
+    }
+}
