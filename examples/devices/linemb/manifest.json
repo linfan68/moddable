@@ -1,7 +1,7 @@
 {
     "build": {
         "NAME": "hello-linemb",
-        "CPU": "arm"
+        "CPU": "x86_64"
     },
     "include": [
         "$(MODDABLE)/examples/manifest_base.json",
@@ -11,5 +11,10 @@
         "*": [
             "./*"
         ]
-    }
+    },
+    "defines": {
+		"xs": {
+			"abortHook": 1
+		}
+	}
 }
